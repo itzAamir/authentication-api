@@ -1,0 +1,11 @@
+GET  http://localhost:5000/api
+
+###
+POST  http://localhost:5000/api/register
+Content-Type: application/json
+
+{
+    "username": "Aamir Khan 2",
+    "email": "amirpc1@gmail.com",
+    "password": "qwerty1"
+}
