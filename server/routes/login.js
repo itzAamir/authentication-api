@@ -6,7 +6,7 @@ const bcrypt = require("bcrypt");
 loginRouter.post("/", (req, res) => {
     const { email, password } = req.body;
     console.log(email, password);
-    res.send("ok")
+    res.send("not ok")
 })
 
 module.exports = loginRouter;
