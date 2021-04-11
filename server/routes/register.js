@@ -11,7 +11,7 @@ registerRouter.post("/", (req, res) => {
                 try {
                     const newUser = new User({ username, email, password: hashedPass });
                     const result = await newUser.save();
-                    res.json({ message: "success", data: result })
+                    res.json({ message: "ok", data: result })
                 } catch (error) {
                     res.json({ message: "error", data: error.message })
                 }

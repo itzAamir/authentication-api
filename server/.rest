@@ -18,3 +18,15 @@ Content-Type: application/json
     "email": "amirpc190320@gmail.com",
     "password": "qwerty1"
 }
+
+###
+GET  http://localhost:5000/api/user/607163c3c77aa21a88336e66
+
+
+###
+POST http://localhost:5000/api/cookie
+Content-Type: application/json
+
+{
+    "cookie": "abc"
+}
